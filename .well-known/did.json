@@ -1,48 +1,7 @@
 {
-  "id": "did:web:pari.parilearn.com",
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    {
-      "@base": "did:web:pari.parilearn.com"
-    }
-  ],
-  "service": [
-    {
-      "id": "#linkeddomains",
-      "type": "LinkedDomains",
-      "serviceEndpoint": {
-        "origins": [
-          "https://pari.parilearn.com/"
-        ]
-      }
-    },
-    {
-      "id": "#hub",
-      "type": "IdentityHub",
-      "serviceEndpoint": {
-        "instances": [
-          "https://hub.did.msidentity.com/v1.0/91b36ffe-2a9f-4efd-ae17-9c03c0690b4e"
-        ]
-      }
-    }
-  ],
-  "verificationMethod": [
-    {
-      "id": "#92314d7d183845e3b511c86f81e7abfdvcSigningKey-338fb",
-      "controller": "did:web:pari.parilearn.com",
-      "type": "JsonWebKey2020",
-      "publicKeyJwk": {
-        "crv": "P-256",
-        "kty": "EC",
-        "x": "jwZ77d8MN3VlcLEcIFp9UjqCs7XyyjWUdErfW0hPhhc",
-        "y": "FHQ0kb-FS-nnlmcj8Bo-7xuS1AuU1ZqR4n_PfKeNDgI"
-      }
-    }
-  ],
-  "authentication": [
-    "#92314d7d183845e3b511c86f81e7abfdvcSigningKey-338fb"
-  ],
-  "assertionMethod": [
-    "#92314d7d183845e3b511c86f81e7abfdvcSigningKey-338fb"
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:ion:your-did-goes-here",
+  "alsoKnownAs": [
+    "https://yourusername.github.io"
   ]
 }
